@@ -51,42 +51,41 @@ Mention any important settings or extensions.
 Question Three: Explain the main components of the VS Code user interface. Identify and describe the purpose of the Activity Bar,
 Side Bar, Editor Group, and Status Bar.
 
+      1. The Activity Bar: Located on the far left side of the window, It's purpose is to switch between different views and provide quick access to
+                          commonly used features. 
+                          It's Components include:
+                            - Explorer: Shows the file and folder structure of your workspace.
+                            - Search: Allows you to search for files, symbols, and content within your workspace.
+                            - Source Contro: Integrates with version control systems like Git, allowing you to manage source code changes.
+                            - Run and Debug: Provides access to debugging tools and configurations.
+                            - Extensions: Lets you browse, install, and manage extensions.
 
-1. The Activity Bar: Located on the far left side of the window, It's purpose is to switch between different views and provide quick access to
-                    commonly used features. 
-                    It's Components include:
-                      - Explorer: Shows the file and folder structure of your workspace.
-                      - Search: Allows you to search for files, symbols, and content within your workspace.
-                      - Source Contro: Integrates with version control systems like Git, allowing you to manage source code changes.
-                      - Run and Debug: Provides access to debugging tools and configurations.
-                      - Extensions: Lets you browse, install, and manage extensions.
+      2. The side Bar: Located immediately to the right of the Activity Bar, It's purpose is to changes its content based on the selected activity from the Activity Bar. It is used for detailed navigation and
+                       interaction with various features.
+                       It's components include:
+                        - Explorer View: Displays the directory structure, open files, and workspace folders.
+                        - Search View: Offers search functionalities within the project files.
+                        - Source Control View: Shows version control status, staged changes, and commit history.
+                        - Run and Debug View: Provides debugging options, breakpoints, and debug configurations.
+                        - Extensions View: Lists installed extensions and allows you to search for new ones.
+                        - Other Views: Depending on extensions, additional views can be added.
 
-2. The side Bar: Located immediately to the right of the Activity Bar, It's purpose is to changes its content based on the selected activity from the Activity Bar. It is used for detailed navigation and
-                 interaction with various features.
-                 It's components include:
-                  - Explorer View: Displays the directory structure, open files, and workspace folders.
-                  - Search View: Offers search functionalities within the project files.
-                  - Source Control View: Shows version control status, staged changes, and commit history.
-                  - Run and Debug View: Provides debugging options, breakpoints, and debug configurations.
-                  - Extensions View: Lists installed extensions and allows you to search for new ones.
-                  - Other Views: Depending on extensions, additional views can be added.
+      3. Editor Group: Located in the central area of the window, where the code files are displayed and edited. The Editor Group is where you write,
+                       edit, and review your code. Multiple files can be opened and edited in tabs within the editor.
+                       It's Components include:
+                        - Tabs: Represent open files. You can switch between different files by clicking on their respective tabs.
+                        - Split Editor: Allows you to view and edit multiple files side-by-side.
+                        - Breadcrumbs: Located above the editor area, providing easy navigation through your file structure and symbols within the file.
+                        - Context Menu: Right-clicking within the editor provides a context menu with various options like formatting, renaming, and refactoring code.
 
-3. Editor Group: Located in the central area of the window, where the code files are displayed and edited. The Editor Group is where you write,
-                 edit, and review your code. Multiple files can be opened and edited in tabs within the editor.
-                 It's Components include:
-                  - Tabs: Represent open files. You can switch between different files by clicking on their respective tabs.
-                  - Split Editor: Allows you to view and edit multiple files side-by-side.
-                  - Breadcrumbs: Located above the editor area, providing easy navigation through your file structure and symbols within the file.
-                  - Context Menu: Right-clicking within the editor provides a context menu with various options like formatting, renaming, and refactoring code.
-
-4. Status Bar: Located at the bottom of the window. The Status Bar displays useful information about the current workspace and the
-               state of the editor. It provides quick access to important tasks and settings.
-               It's components includes:
-                 - Current Branch: Shows the current Git branch if a Git repository is open.
-                 - Line and Column Numbers: Indicates the cursor's position in the file.
-                 - Language Mode: Displays the programming language of the currently open file. Clicking on it allows you to change the language mode.
-                 - Encoding: Shows the file's text encoding.
-                 - End of Line Sequence: Displays the current line ending format (e.g., LF, CRLF).
-                 - Indentation: Indicates the current indentation settings (e.g., spaces, tabs).
-                 - Feedback and Notifications: Provides notifications and allows you to give feedback on VS Code.
-                 - Tasks and Problems: Displays the number of active tasks or problems found in the code
+      4. Status Bar: Located at the bottom of the window. The Status Bar displays useful information about the current workspace and the
+                     state of the editor. It provides quick access to important tasks and settings.
+                     It's components includes:
+                       - Current Branch: Shows the current Git branch if a Git repository is open.
+                       - Line and Column Numbers: Indicates the cursor's position in the file.
+                       - Language Mode: Displays the programming language of the currently open file. Clicking on it allows you to change the language mode.
+                       - Encoding: Shows the file's text encoding.
+                       - End of Line Sequence: Displays the current line ending format (e.g., LF, CRLF).
+                       - Indentation: Indicates the current indentation settings (e.g., spaces, tabs).
+                       - Feedback and Notifications: Provides notifications and allows you to give feedback on VS Code.
+                       - Tasks and Problems: Displays the number of active tasks or problems found in the code
